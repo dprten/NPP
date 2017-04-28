@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dprtenjaca.carservices">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".LoginActivity" -->
+        <!-- android:theme="@style/AppTheme.Dark" /> -->
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".AdminUsersActivity" />
+        <activity android:name=".CarServiceNewOrdersActivity" />
+        <activity android:name=".UserCarServicesCompanyActivity" />
+        <activity
+            android:name=".AdminCarServicesActivity"
+            android:label="@string/title_activity_admin_car_services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminUserAddActivity"
+            android:parentActivityName=".AdminUsersActivity" />
+        <activity
+            android:name=".UserBaseActivity"
+            android:label="@string/title_activity_user_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserCarServicesActivity" />
+        <activity android:name=".UserShoppingCartActivity" />
+        <activity
+            android:name=".CarServiceBaseActivity"
+            android:label="@string/title_activity_car_service_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CarServiceAcceptedOrdersActivity" />
+        <activity android:name=".CarServiceServicesActivity" />
+        <activity android:name=".UserChangeDataActivity" />
+        <activity android:name=".UserDeactivateAccountActivity" />
+        <activity android:name=".CarServiceChangeDataActivity" />
+        <activity android:name=".CarServiceDeactivateAccountActivity"></activity>
+    </application>
+
+</manifest>

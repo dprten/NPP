@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10pt"
+    tools:context="com.example.dprtenjaca.carservices.AdminUserAddActivity">
+
+    <EditText
+    android:id="@+id/editTextAdminUserAddFirstName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/admin_user_add_first_name_hint"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_last_name_hint"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_username_hint" />
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_password_hint"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_address_hint"
+        android:inputType="textPostalAddress"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_email_hint"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_phone_hint"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/buttonAdminUserAddSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="SUBMIT"/>
+
+</LinearLayout>

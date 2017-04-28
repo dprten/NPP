@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10pt">
+
+    <EditText
+        android:id="@+id/editTextAdminUserFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_first_name_hint"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_last_name_hint"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_username_hint" />
+
+    <EditText
+        android:id="@+id/editTextAdminUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_password_hint"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_address_hint"
+        android:inputType="textPostalAddress"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_email_hint"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextAdminUserPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/admin_user_add_phone_hint"
+        android:inputType="phone"/>
+
+</LinearLayout>

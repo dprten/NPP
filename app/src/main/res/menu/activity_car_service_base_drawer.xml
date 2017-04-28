@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_car_features"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_orders"
+            android:icon="@drawable/inbox"
+            android:title="New orders" />
+        <item
+            android:id="@+id/nav_accepted_orders"
+            android:icon="@drawable/file_check"
+            android:title="Accepted orders" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/view_list"
+            android:title="Services" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_car_account"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change_data"
+            android:icon="@drawable/account_settings_variant"
+            android:title="Change data" />
+        <item
+            android:id="@+id/nav_account_deactivate"
+            android:icon="@drawable/account_multiple_minus"
+            android:title="Deactivate account" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_receiving_orders"
+            android:icon="@drawable/inbox"
+            android:title="Receiving orders" />
+        <item
+            android:id="@+id/nav_view_orders"
+            android:icon="@drawable/view_list"
+            android:title="View orders" />
+        <item
+            android:id="@+id/nav_approval_orders"
+            android:icon="@drawable/file_check"
+            android:title="Approval order" />
+        <item
+            android:id="@+id/nav_change_pricing"
+            android:icon="@drawable/square_inc_cash"
+            android:title="Change pricing" />
+
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_delete_packages"
+                android:icon="@drawable/delete"
+                android:title="Delete packages" />
+            <item
+                android:id="@+id/nav_change_data"
+                android:icon="@drawable/account_settings_variant"
+                android:title="Change data" />
+            <item
+                android:id="@+id/nav_account_deactivate"
+                android:icon="@drawable/account_multiple_minus"
+                android:title="Deactivate account" />
+
+        </menu>
+    </item>
+
+</menu>

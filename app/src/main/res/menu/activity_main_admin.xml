@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_users"
+            android:icon="@drawable/account_multiple"
+            android:title="@string/admin_nav_users" />
+        <item
+            android:id="@+id/nav_admin_car_services"
+            android:icon="@drawable/car"
+            android:title="@string/admin_nav_car_services" />
+    </group>
+
+    <!--<item android:title="Deactivate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_account_multiple_minus"-->
+                <!--android:icon="@drawable/account_multiple_minus"-->
+                <!--android:title="Delete users" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_engine_services"-->
+                <!--android:icon="@drawable/engine_outline"-->
+                <!--android:title="Delete car services" />-->
+
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
